@@ -1,0 +1,150 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    background-color: #000; 
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin: 1rem 0;
+    background-color: #000; 
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007bff; 
+}
+
+
+#admin-functions {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#admin-functions h2 {
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #000; 
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #0056b3; 
+}
+
+
+#facultyDashboard {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+#facultyDashboard th, 
+#facultyDashboard td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+#facultyDashboard th {
+    background-color: #000; 
+    color: #fff;
+    font-weight: bold;
+}
+
+#facultyDashboard td {
+    color: #333;
+}
+
+#facultyDashboard tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#facultyDashboard tr:hover {
+    background-color: #ddd;
+}
+
+
+button.delete-btn {
+    background-color: #ff4d4d; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button.delete-btn:hover {
+    background-color: #cc0000;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
